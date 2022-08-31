@@ -1,0 +1,4 @@
+$servername = "70.40.220.182";
+$username = "thecowb0_csmith";
+$password = "Braves05!";
+$database = "thecowb0_site";
