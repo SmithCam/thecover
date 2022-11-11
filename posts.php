@@ -96,7 +96,7 @@ $index = $limit;
 									</ul>
 									<ul class="stats">
 										<li><a href="<?php echo $row['FILENAME'] ?>"><?php echo $row['TAGONE'] ?></a></li>
-										<li><a class="icon solid fa-heart"><?php echo $row['LIKES'] ?></a></li>
+										<li><a href="<?php echo $row['FILENAME'] ?>"><?php echo $row['TAGTWO'] ?></a></li>
 									</ul>
 								</footer>
 							</article>
