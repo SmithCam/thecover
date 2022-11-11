@@ -1,4 +1,3 @@
-
 <html>
 		<head>
 		<title>Post Title</title>
@@ -59,6 +58,7 @@
 											<h3>Contact</h3>
 										</a>
 									</li>
+									<li><a href="mailto:contact@thecoverblog.com?subject=Subscribe%20to%20The%20Cover!&body=Sign%20me%20up!" target="_blank"><h3>Subscribe!</h3></a></li>
 								</ul>
 							</section>
 					</section>

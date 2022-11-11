@@ -1,7 +1,7 @@
 
 <html>
 		<head>
-		<title>Post Title</title>
+		<title>Posts Feed</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<script src="https://kit.fontawesome.com/6f4d796be0.js" crossorigin="anonymous"></script>
@@ -10,19 +10,7 @@
 	</head>
 	<body class="single is-preload">
 <?php
-$servername = "70.40.220.182";
-$username = "thecowb0_csmith";
-$password = "Braves05!";
-$database = "thecowb0_site";
-
-// Create connection
-$conn = new mysqli($servername, $username, $password, $database);
-
-// Check connection
-if ($conn->connect_error) {
-  die("Connection failed: " . $conn->connect_error);
-}
-
+include 'db.php';
 $result = $conn -> query("SELECT * FROM posts ORDER BY ID DESC");
 
 $highest = $conn -> query("SELECT ID FROM posts ORDER BY ID DESC LIMIT 1");
@@ -81,6 +69,7 @@ $index = $limit;
 											<h3>Contact</h3>
 										</a>
 									</li>
+									<li><a href="mailto:contact@thecoverblog.com?subject=Subscribe%20to%20The%20Cover!&body=Sign%20me%20up!" target="_blank"><h3>Subscribe!</h3></a></li>
 								</ul>
 							</section>
 					</section>
@@ -114,6 +103,10 @@ $index = $limit;
 						</div>
 					<?php endwhile;?>
 
+			<!-- <form>
+				<button value = 5 name="more" ">Show More</button>
+			</form> -->
+
 				<!-- Footer -->
 					<section id="footer">
 								<ul class="icons">
@@ -127,7 +120,6 @@ $index = $limit;
 							</section>
 
 			</div>
-
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/browser.min.js"></script>

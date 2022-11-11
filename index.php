@@ -11,27 +11,14 @@
 	<body class="is-preload">
 
 		<?php
-$servername = "70.40.220.182";
-$username = "thecowb0_csmith";
-$password = "Braves05!";
-$database = "thecowb0_site";
+		include 'db.php';
+		$result = $conn -> query("SELECT * FROM posts ORDER BY ID DESC LIMIT 8");
+		$resultAgain = $conn -> query("SELECT * FROM posts ORDER BY ID ASC LIMIT 5");
 
-// Create connection
-$conn = new mysqli($servername, $username, $password, $database);
-
-// Check connection
-if ($conn->connect_error) {
-  die("Connection failed: " . $conn->connect_error);
-}
-
-$result = $conn -> query("SELECT * FROM posts ORDER BY ID DESC LIMIT 8");
-$resultAgain = $conn -> query("SELECT * FROM posts ORDER BY LIKES DESC LIMIT 5");
-
-// array
-$row = $result -> fetch_array(MYSQLI_ASSOC);
-$rowAgain = $resultAgain -> fetch_array(MYSQLI_ASSOC);
-
-?>
+		// array
+		$row = $result -> fetch_array(MYSQLI_ASSOC);
+		$rowAgain = $resultAgain -> fetch_array(MYSQLI_ASSOC);
+		?>
 
 		<!-- Wrapper -->
 			<div id="wrapper">
@@ -84,6 +71,7 @@ $rowAgain = $resultAgain -> fetch_array(MYSQLI_ASSOC);
 											<h3>Contact</h3>
 										</a>
 									</li>
+									<li><a href="mailto:contact@thecoverblog.com?subject=Subscribe%20to%20The%20Cover!&body=Sign%20me%20up!" target="_blank"><h3>Subscribe!</h3></a></li>
 								</ul>
 							</section>
 					</section>
@@ -111,7 +99,7 @@ $rowAgain = $resultAgain -> fetch_array(MYSQLI_ASSOC);
 									</ul>
 									<ul class="stats">
 										<li><a href="<?php echo $row['FILENAME'] ?>"><?php echo $row['TAGONE'] ?></a></li>
-										<li><a class="icon solid fa-heart"><?php echo $row['LIKES'] ?></a></li>
+										<li><a href="<?php echo $row['FILENAME'] ?>"><?php echo $row['TAGTWO'] ?></a></li></a></li>
 									</ul>
 								</footer>
 							</article>
@@ -137,7 +125,7 @@ $rowAgain = $resultAgain -> fetch_array(MYSQLI_ASSOC);
 									</ul>
 									<ul class="stats">
 										<li><a href="<?php echo $row['FILENAME'] ?>"><?php echo $row['TAGONE'] ?></a></li>
-										<li><a class="icon solid fa-heart"><?php echo $row['LIKES'] ?></a></li>
+										<li><a href="<?php echo $row['FILENAME'] ?>"><?php echo $row['TAGTWO'] ?></a></li></a></li>
 									</ul>
 								</footer>
 							</article>
@@ -163,7 +151,7 @@ $rowAgain = $resultAgain -> fetch_array(MYSQLI_ASSOC);
 									</ul>
 									<ul class="stats">
 										<li><a href="<?php echo $row['FILENAME'] ?>"><?php echo $row['TAGONE'] ?></a></li>
-										<li><a class="icon solid fa-heart"><?php echo $row['LIKES'] ?></a></li>
+										<li><a href="<?php echo $row['FILENAME'] ?>"><?php echo $row['TAGTWO'] ?></a></li></a></li>
 									</ul>
 								</footer>
 							</article>

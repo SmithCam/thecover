@@ -112,7 +112,16 @@
 	     	$(this).css("color", pickColor());
 	  }, 
 	  function () {
-	     	$(this).css("color", "#525E75");
+	     	$(this).css("color", "#FFFFFF");
+  }
+);
+
+	$(".mini-post a").hover(
+	  function () {
+	     	$(this).css("color", pickColor());
+	  }, 
+	  function () {
+	     	$(this).css("color", "#000000");
   }
 );
 	$("button.like").hover(
@@ -120,49 +129,49 @@
 	     	$(this).css("color", pickColor());
 	  }, 
 	  function () {
-	     	$(this).css("color", "#525E75");
+	     	$(this).css("color", "#FFFFFF");
   }
 );
 	$(".button").hover(
 	  function () {
 	  		var boxColor = pickColor();
-	     	$(this).css("color", "#525E75");
+	     	$(this).css("color", "#FFFFFF");
 	     	$(this).css("background-color", boxColor);
 	     	$(this).css("box-shadow", "inset 0 0 0 1px "+boxColor+"");
 	  }, 
 	  function () {
-	     	$(this).css("color", "#525E75");
-	     	$(this).css("box-shadow", "inset 0 0 0 1px #525E75");
+	     	$(this).css("color", "#FFFFFF");
+	     	$(this).css("box-shadow", "inset 0 0 0 1px #FFFFFF");
 	     	$(this).css("background-color", "transparent");
   }
 );
 
 
-	$( "input.fcf-form-control" ).hover(function() {
+	/*$( "input.fcf-form-control" ).click(function() {
 		var boxColor = pickColor();
 		$(this).css("border-color", boxColor);
 	});
 
-	$( ".fcf-input-group textarea" ).hover(function() {
+	$( ".fcf-input-group textarea" ).click(function() {
 		var boxColor = pickColor();
 		$(this).css("border-color", boxColor);
-	});
+	}); */
 
 	$("a.subscribe-button").hover(
 	  function () {
 	  		var boxColor = pickColor();
-	     	$(this).css("color", "#525E75");
+	     	$(this).css("color", "#FFFFFF");
 	     	$(this).css("background-color", boxColor);
 	  }, 
 	  function () {
-	     	$(this).css("color", "#525E75");
+	     	$(this).css("color", "#FFFFFF");
 	     	$(this).css("background-color", "transparent");
   }
 );
 
 	$("a.logo-word").hover(
 	  function () {
-	     	$(this).css("color", "#525E75");
+	     	$(this).css("color", "#FFFFFF");
 	  }, 
 	  function () {
 	    $(this).css("color", pickColor());

@@ -38,6 +38,9 @@ a.logo-word{
 		color:;
 	}
 
+article.mini-post body, h1, h2, h3, h4, h5{
+	color:  #000000;
+}
 
 header p.readable{
 	text-transform: none;
@@ -59,6 +62,7 @@ section, summary, time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
+	border-color: #FFFFFF;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;}
@@ -111,11 +115,11 @@ input, select, textarea {
 }
 
 .fa-worm {
-	color:  #525E75;
+	color:  #FFFFFF;
 }
 
 .fa-book-open {
-	color:  #525E75;
+	color:  #FFFFFF;
 }
 
 /* Basic */
@@ -145,7 +149,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #F9F2ED;
+		background: #000000;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -162,7 +166,7 @@ input, select, textarea {
 /* Type */
 
 	body, input, select, textarea {
-		color: #525E75;
+		color: #FFFFFF;
 		font-family: "Hubballi", Helvetica, sans-serif;
 		font-size: 14pt;
 		font-weight: 400;
@@ -262,7 +266,7 @@ input, select, textarea {
 
 
 	strong, b {
-		color: #525E75;
+		color: #FFFFFF;
 		font-weight: 700;
 	}
 
@@ -279,7 +283,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #525E75;
+		color: #FFFFFF;
 		font-family: "Hubballi", Helvetica, sans-serif;
 		font-weight: 800;
 		letter-spacing: 0.25em;
@@ -334,7 +338,7 @@ input, select, textarea {
 	}
 
 	blockquote {
-		border-left: solid 4px rgba(160, 160, 160, 0.3);
+		border-left: solid 4px #FFFFFF;
 		font-style: italic;
 		margin: 0 0 2em 0;
 		padding: 0.5em 0 0.5em 2em;
@@ -342,7 +346,7 @@ input, select, textarea {
 
 	code {
 		background: rgba(160, 160, 160, 0.075);
-		border: solid 1px rgba(160, 160, 160, 0.3);
+		border: solid .5px #FFFFFF;
 		font-family: "Courier New", monospace;
 		font-size: 0.9em;
 		margin: 0 0.25em;
@@ -365,7 +369,7 @@ input, select, textarea {
 
 	hr {
 		border: 0;
-		border-bottom: solid 1px rgba(160, 160, 160, 0.3);
+		border-bottom: solid 1px #FFFFFF;
 		margin: 2em 0;
 	}
 
@@ -1920,7 +1924,7 @@ input, select, textarea {
 /* Box */
 
 	.box {
-		border: solid 1px rgba(160, 160, 160, 0.3);
+		border: solid .5px #FFFFFF;
 		margin-bottom: 2em;
 		padding: 1.5em;
 	}
@@ -1954,8 +1958,8 @@ input, select, textarea {
 		transition: background-color 0.2s ease, box-shadow 0.2s ease, color 0.2s ease;
 		background-color: transparent;
 		border: 0;
-		box-shadow: inset 0 0 0 1px #525E75;
-		color: #525E75;
+		box-shadow: inset 0 0 0 1px #FFFFFF;
+		color: #FFFFFF;
 		cursor: pointer;
 		display: inline-block;
 		font-family: "Hubballi", Helvetica, sans-serif;
@@ -2048,7 +2052,7 @@ input, select, textarea {
 		.button.disabled,
 		.button:disabled {
 			pointer-events: none;
-			color: rgba(160, 160, 160, 0.3) !important;
+			color: #FFFFFF !important;
 		}
 
 			input[type="submit"].disabled:before, input[type="submit"]:disabled:before,
@@ -2060,7 +2064,7 @@ input, select, textarea {
 			button:disabled:before,
 			.button.disabled:before,
 			.button:disabled:before {
-				color: rgba(160, 160, 160, 0.3) !important;
+				color: #FFFFFF !important;
 			}
 
 /* Form */
@@ -2105,7 +2109,7 @@ input, select, textarea {
 			}
 
 	label {
-		color: #525E75;
+		color: #FFFFFF;
 		display: block;
 		font-size: 0.9em;
 		font-weight: 700;
@@ -2124,7 +2128,7 @@ input, select, textarea {
 		appearance: none;
 		background: rgba(160, 160, 160, 0.075);
 		border: none;
-		border: solid 1px rgba(160, 160, 160, 0.3);
+		border: solid .5px #FFFFFF;
 		border-radius: 0;
 		color: inherit;
 		display: block;
@@ -2173,7 +2177,7 @@ input, select, textarea {
 		}
 
 		.select-wrapper:before {
-			color: rgba(160, 160, 160, 0.3);
+			color: #FFFFFF;
 			content: '\f078';
 			display: block;
 			height: 2.75em;
@@ -2191,7 +2195,7 @@ input, select, textarea {
 		}
 
 	select {
-		background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' preserveAspectRatio='none' viewBox='0 0 40 40'%3E%3Cpath d='M9.4,12.3l10.4,10.4l10.4-10.4c0.2-0.2,0.5-0.4,0.9-0.4c0.3,0,0.6,0.1,0.9,0.4l3.3,3.3c0.2,0.2,0.4,0.5,0.4,0.9 c0,0.4-0.1,0.6-0.4,0.9L20.7,31.9c-0.2,0.2-0.5,0.4-0.9,0.4c-0.3,0-0.6-0.1-0.9-0.4L4.3,17.3c-0.2-0.2-0.4-0.5-0.4-0.9 c0-0.4,0.1-0.6,0.4-0.9l3.3-3.3c0.2-0.2,0.5-0.4,0.9-0.4S9.1,12.1,9.4,12.3z' fill='rgba(160, 160, 160, 0.3)' /%3E%3C/svg%3E");
+		background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' preserveAspectRatio='none' viewBox='0 0 40 40'%3E%3Cpath d='M9.4,12.3l10.4,10.4l10.4-10.4c0.2-0.2,0.5-0.4,0.9-0.4c0.3,0,0.6,0.1,0.9,0.4l3.3,3.3c0.2,0.2,0.4,0.5,0.4,0.9 c0,0.4-0.1,0.6-0.4,0.9L20.7,31.9c-0.2,0.2-0.5,0.4-0.9,0.4c-0.3,0-0.6-0.1-0.9-0.4L4.3,17.3c-0.2-0.2-0.4-0.5-0.4-0.9 c0-0.4,0.1-0.6,0.4-0.9l3.3-3.3c0.2-0.2,0.5-0.4,0.9-0.4S9.1,12.1,9.4,12.3z' fill='#FFFFFF' /%3E%3C/svg%3E");
 		background-size: 1.25rem;
 		background-repeat: no-repeat;
 		background-position: calc(100% - 1rem) center;
@@ -2201,7 +2205,7 @@ input, select, textarea {
 	}
 
 		select option {
-			color: #525E75;
+			color: #FFFFFF;
 			background: #ffffff;
 		}
 
@@ -2268,7 +2272,7 @@ input, select, textarea {
 			input[type="checkbox"] + label:before,
 			input[type="radio"] + label:before {
 				background: rgba(160, 160, 160, 0.075);
-				border: solid 1px rgba(160, 160, 160, 0.3);
+				border: solid .5px #FFFFFF;
 				content: '';
 				display: inline-block;
 				font-size: 0.8em;
@@ -2283,8 +2287,8 @@ input, select, textarea {
 
 		input[type="checkbox"]:checked + label:before,
 		input[type="radio"]:checked + label:before {
-			background: #525E75;
-			border-color: #525E75;
+			background: #FFFFFF;
+			border-color: #FFFFFF;
 			color: #ffffff;
 			content: '\f00c';
 		}
@@ -2458,7 +2462,7 @@ input, select, textarea {
 		}
 
 			ul.alt li {
-				border-top: solid 1px rgba(160, 160, 160, 0.3);
+				border-top: solid 1px #FFFFFF;
 				padding: 0.5em 0;
 			}
 
@@ -2643,7 +2647,7 @@ input, select, textarea {
 	}
 
 		ul.posts li {
-			border-top: dotted 1px rgba(160, 160, 160, 0.3);
+			border-top: dotted 1px #FFFFFF;
 			margin: 1.5em 0 0 0;
 			padding: 1.5em 0 0 0;
 		}
@@ -2729,7 +2733,7 @@ a.author img:hover {
 		-ms-flex-direction: column-reverse;
 		flex-direction: column-reverse;
 		background: #ffffff;
-		border: solid 1px rgba(160, 160, 160, 0.3);
+		border: solid .5px #FFFFFF;
 		margin: 0 0 2em 0;
 	}
 
@@ -2761,6 +2765,11 @@ a.author img:hover {
 			-webkit-flex-grow: 1;
 			-ms-flex-grow: 1;
 			flex-grow: 1;
+			color: #000000;
+		}
+
+		.mini-post header h3 a{
+				color: #000000;
 		}
 
 			.mini-post header h3 {
@@ -2829,8 +2838,8 @@ a.author img:hover {
 /* Post */
 	.post {
 		padding: 3em 3em 1em 3em ;
-		background: #FFF8F3;
-		border: solid 1px rgba(160, 160, 160, 0.3);
+		background: #000000;
+		border: solid .5px #FFFFFF;
 		margin: 0 0 3em 0;
 		position: relative;
 	}
@@ -2847,12 +2856,12 @@ a.author img:hover {
 			display: -webkit-flex;
 			display: -ms-flex;
 			display: flex;
-			border-bottom: solid 1px rgba(160, 160, 160, 0.3);
+			border-bottom: solid 1px #FFFFFF;
 			left: -3em;
 			margin: -3em 0 3em 0;
 			position: relative;
 			width: calc(100% + 6em);
-			background-color: #FFF8F3;
+			background-color: #000000;
 		}
 
 			.post > header .title {
@@ -2875,7 +2884,7 @@ a.author img:hover {
 
 			.post > header .meta {
 				padding: 3.75em 3em 1.75em 3em ;
-				border-left: solid 1px rgba(160, 160, 160, 0.3);
+				border-left: solid 1px #FFFFFF;
 				min-width: 17em;
 				text-align: right;
 				width: 17em;
@@ -2890,7 +2899,7 @@ a.author img:hover {
 				}
 
 				.post > header .meta .published {
-					color: #525E75;
+					color: #FFFFFF;
 					display: block;
 					font-family: "Hubballi", Helvetica, sans-serif;
 					font-size: 0.7em;
@@ -2944,7 +2953,7 @@ a.author img:hover {
 			}
 
 				.post > footer .stats li {
-					border-left: solid 1px rgba(160, 160, 160, 0.3);
+					border-left: solid 1px #FFFFFF;
 					display: inline-block;
 					font-family: "Hubballi", Helvetica, sans-serif;
 					font-size: 0.7em;
@@ -2967,7 +2976,7 @@ a.author img:hover {
 					}
 
 						.post > footer .stats li .icon:before {
-							color: rgba(160, 160, 160, 0.3);
+							color: #FFFFFF;
 							margin-right: 0.75em;
 						}
 
@@ -3017,7 +3026,7 @@ a.author img:hover {
 					}
 
 						.post > header .meta > * {
-							border-left: solid 1px rgba(160, 160, 160, 0.3);
+							border-left: solid 1px #FFFFFF;
 							margin-left: 2em;
 							padding-left: 2em;
 						}
@@ -3153,7 +3162,7 @@ a.author img:hover {
 	}
 
 		table tbody tr {
-			border: solid 1px rgba(160, 160, 160, 0.3);
+			border: solid .5px #FFFFFF;
 			border-left: 0;
 			border-right: 0;
 		}
@@ -3167,7 +3176,7 @@ a.author img:hover {
 		}
 
 		table th {
-			color: #525E75;
+			color: #FFFFFF;
 			font-size: 0.9em;
 			font-weight: 700;
 			padding: 0 0.75em 0.75em 0.75em;
@@ -3175,11 +3184,11 @@ a.author img:hover {
 		}
 
 		table thead {
-			border-bottom: solid 2px rgba(160, 160, 160, 0.3);
+			border-bottom: solid 2px #FFFFFF;
 		}
 
 		table tfoot {
-			border-top: solid 2px rgba(160, 160, 160, 0.3);
+			border-top: solid 2px #FFFFFF;
 		}
 
 		table.alt {
@@ -3187,7 +3196,7 @@ a.author img:hover {
 		}
 
 			table.alt tbody tr td {
-				border: solid 1px rgba(160, 160, 160, 0.3);
+				border: solid .5px #FFFFFF;
 				border-left-width: 0;
 				border-top-width: 0;
 			}
@@ -3223,8 +3232,8 @@ a.author img:hover {
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		background-color: #FFF8F3;
-		border-bottom: solid 1px rgba(160, 160, 160, 0.3);
+		background-color: #000000;
+		border-bottom: solid 1px #FFFFFF;
 		height: 3.5em;
 		left: 0;
 		line-height: 3.5em;
@@ -3243,6 +3252,7 @@ a.author img:hover {
 			list-style: none;
 			margin: 0;
 			padding-left: 0;
+			border-bottom: solid 1px #FFFFFF;
 		}
 
 			#header ul li {
@@ -3255,6 +3265,7 @@ a.author img:hover {
 			line-height: inherit;
 			padding: 0 0 0 1.5em;
 			white-space: nowrap;
+			border-bottom: solid 1px #FFFFFF;
 		}
 
 			#header h1 a {
@@ -3266,7 +3277,7 @@ a.author img:hover {
 			-webkit-flex: 1;
 			-ms-flex: 1;
 			flex: 1;
-			border-left: solid 1px rgba(160, 160, 160, 0.3);
+			border-left: solid 1px #FFFFFF;
 			height: inherit;
 			line-height: inherit;
 			margin-left: 1.5em;
@@ -3275,7 +3286,7 @@ a.author img:hover {
 		}
 
 			#header .links ul li {
-				border-left: solid 1px rgba(160, 160, 160, 0.3);
+				border-left: solid 1px #FFFFFF;
 				line-height: 1;
 				margin-left: 1em;
 				padding-left: 1em;
@@ -3308,7 +3319,7 @@ a.author img:hover {
 			}
 
 				#header .main ul li {
-					border-left: solid 1px rgba(160, 160, 160, 0.3);
+					border-left: solid 1px #FFFFFF;
 					height: inherit;
 					line-height: inherit;
 					white-space: nowrap;
@@ -3322,7 +3333,7 @@ a.author img:hover {
 					#header .main ul li > a {
 						text-decoration: none;
 						border-bottom: 0;
-						color: #aaaaaa;
+						color: #FFFFFF;
 						overflow: hidden;
 						position: relative;
 						text-indent: 4em;
@@ -3517,7 +3528,7 @@ a.author img:hover {
 	}
 
 		#sidebar > * {
-			border-top: solid 1px rgba(160, 160, 160, 0.3);
+			border-top: solid 1px #FFFFFF;
 			margin: 3em 0 0 0;
 			padding: 3em 0 0 0;
 		}
@@ -3531,7 +3542,7 @@ a.author img:hover {
 		@media screen and (max-width: 1280px) {
 
 			#sidebar {
-				border-top: solid 1px rgba(160, 160, 160, 0.3);
+				border-top: solid 1px #FFFFFF;
 				margin: 3em 0 0 0;
 				min-width: 0;
 				padding: 3em 0 0 0;
@@ -3631,7 +3642,7 @@ a.author img:hover {
 /* Footer */
 
 	#footer .icons {
-		color: #aaaaaa;
+		color: #FFFFFF;
 	}
 
 	#footer .copyright {
@@ -3659,8 +3670,8 @@ a.author img:hover {
 		-ms-transition: -ms-transform 0.5s ease, visibility 0.5s;
 		transition: transform 0.5s ease, visibility 0.5s;
 		-webkit-overflow-scrolling: touch;
-		background: #ffffff;
-		border-left: solid 1px rgba(160, 160, 160, 0.3);
+		background: #000000;
+		border-left: solid 1px #FFFFFF;
 		box-shadow: none;
 		height: 100%;
 		max-width: 80%;
@@ -3674,7 +3685,7 @@ a.author img:hover {
 	}
 
 		#menu > * {
-			border-top: solid 1px rgba(160, 160, 160, 0.3);
+			border-top: solid 1px #FFFFFF;
 			padding: 3em;
 		}
 
@@ -3693,7 +3704,7 @@ a.author img:hover {
 
 			#menu .links > li {
 				border: 0;
-				border-top: dotted 1px rgba(160, 160, 160, 0.3);
+				border-top: dotted 1px #FFFFFF;
 				margin: 1.5em 0 0 0;
 				padding: 1.5em 0 0 0;
 			}

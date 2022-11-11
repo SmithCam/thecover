@@ -10,25 +10,13 @@
 	</head>
 	<body class="single is-preload">
 <?php
-$servername = "70.40.220.182";
-$username = "thecowb0_csmith";
-$password = "Braves05!";
-$database = "thecowb0_site";
+	include 'db.php';
 
-// Create connection
-$conn = new mysqli($servername, $username, $password, $database);
+	$file = basename(__FILE__);
+	$result = $conn -> query("SELECT * FROM posts WHERE FILENAME = '$file' LIMIT 1");
 
-// Check connection
-if ($conn->connect_error) {
-  die("Connection failed: " . $conn->connect_error);
-}
-
-$file = basename(__FILE__);
-$result = $conn -> query("SELECT * FROM posts WHERE FILENAME = '$file' LIMIT 1");
-
-// array
-$row = $result -> fetch_array(MYSQLI_ASSOC);
-
+	// array
+	$row = $result -> fetch_array(MYSQLI_ASSOC);
 ?>
 		<!-- Wrapper -->
 			<div id="wrapper">
@@ -80,6 +68,7 @@ $row = $result -> fetch_array(MYSQLI_ASSOC);
 											<h3>Contact</h3>
 										</a>
 									</li>
+									<li><a href="mailto:contact@thecoverblog.com?subject=Subscribe%20to%20The%20Cover!&body=Sign%20me%20up!" target="_blank"><h3>Subscribe!</h3></a></li>
 								</ul>
 							</section>
 					</section>
