@@ -166,6 +166,7 @@
 									<h2><a class="logo-word">T</a><a class="logo-word">H</a><a class="logo-word">E </a><a class="logo-word">C</a><a class="logo-word">O</a><a class="logo-word">V</a><a class="logo-word">E</a><a class="logo-word">R</a></h2>
 									<a class="logo-word logo-book fa-2x fa-solid fa-book-open"></a>
 									<a class="logo-word logo-worm fa-2x fa-solid fa-worm"></a>
+									<p></p>
 									<p>Objectively the best book opinions, by <a href="about.php" class="logo-word">Cameron Smith</a></p>
 								</header>
 							</section>
