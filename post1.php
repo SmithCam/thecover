@@ -89,7 +89,7 @@
 									</div>
 								</header>
 								<span class="image featured"><img src="images/<?php echo $row['IMAGEONE'] ?>" alt="" /></span>
-								<p>"<?php echo $row['BODY'] ?></p>
+								<p><?php echo $row['BODY'] ?></p>
 
 							  <footer>
 									<ul class="stats">
