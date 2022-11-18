@@ -118,7 +118,7 @@
 								<h2 class ="about-social-label">The Cover:</h2>
 									<ul class="icons">
 										<li><a href="https://twitter.com/CoverBookBlog" target ="_blank" class="icon brands fa-twitter about-socials about-socials-left"><span class="label">Twitter</span></a></li>
-										<li><a href="https://www.google.com/search?q=the+year+is+2022" target ="_blank" class="icon brands fa-facebook-f about-socials"><span class="label">Facebook</span></a></li>
+										<li><a href="https://www.facebook.com/" target ="_blank" class="icon brands fa-facebook-f about-socials"><span class="label">Facebook</span></a></li>
 										<li><a href="https://www.instagram.com/thecoverbookblog/" target ="_blank" class="icon brands fa-instagram about-socials"><span class="label">Instagram</span></a></li>
 										<li><a href="https://www.goodreads.com/review/list/127761504-cameron-smith?ref=nav_mybooks&shelf=read#" target ="_blank" class="fa-brands fa-goodreads-g about-socials"><span class="label">Goodreads</span></a></li>
 										<li><a href="contact.php" class="icon solid fa-envelope about-socials"><span class="label">Email</span></a></li>

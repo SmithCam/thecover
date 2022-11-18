@@ -291,7 +291,7 @@
 							<section id="footer">
 								<ul class="icons">
 									<li><a href="https://www.twitter.com/" target ="_blank" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-									<li><a href="https://www.google.com/search?q=the+year+is+2022" target ="_blank" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+									<li><a href="https://www.facebook.com/" target ="_blank" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
 									<li><a href="https://www.instagram.com/thecoverbookblog/" target ="_blank" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
 									<li><a href="https://www.goodreads.com/review/list/127761504-cameron-smith?ref=nav_mybooks&shelf=read#" target ="_blank" class="fa-brands fa-goodreads-g"><span class="label">Goodreads</span></a></li>
 									<li><a href="contact.php" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
