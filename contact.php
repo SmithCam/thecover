@@ -74,13 +74,9 @@
 										<p class="readable">Do you have a suggestion for a book to review or an update for the site? Do you want to contribute to The Cover, or procure a site of your own? Did you want to tell me how this blog changed your life? Maybe you just want to tell me how wrong I am about your favorite book? Whatever your reason, I would love to hear from you!</p> 
 										<p class="readable">Send an email message or find The Cover on social media below!</p>
 									</div>
-
-
-
 								</header>
 
 								<div class="fcf-body">
-
 									<div id="fcf-form">
 									    <h3 class="fcf-h3">Contact</h3>
 
@@ -130,7 +126,7 @@
 
 				<!-- Footer -->
 					<section id="footer">
-						<p class="copyright">&copy; The Cover 2022. Created by <a href="www.google.com">Cameron Smith.</p>
+						<p class="copyright">&copy; The Cover 2022. Created by Cameron Smith.</p>
 					</section>
 
 			</div>
